@@ -1,0 +1,26 @@
+	for(int count = 1; count < odd.length; count = count + 2){
+	 result[index++] = odd[count];
+	}
+		return result;
+
+		
+    for (int count = 0; count < characters.length; count++) {
+        combinedResult[counter] = String.valueOf(characters[count]);
+        counter++;
+        combinedResult[counter] = String.valueOf(integers[count]);
+        counter++;	
+public static String elementOccurrence(int[] elements, int element){
+	
+		for(int count = 0; count < elements.length; count++){
+		if(elements[count] == element){
+		return "The element " + element + " exists in the array.";
+	}
+c String[] concatenate(char[] characters,int[] integers){
+		String[] result = new String [characters.length + integers.length];
+		for(int count = 0; count < characters.length; count++){
+		result[count] = "" + characters[count];
+}
+		for(int count = 0; count < integers.length; count++){
+		result[count + characters.length] = "" + integers[count];
+	}
+		return result;
